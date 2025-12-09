@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!docker-compose.yml
+!ask_lc.py
+!ask.py
+!ingest_lc.py
+!ingest.py

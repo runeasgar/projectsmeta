@@ -1,0 +1,7 @@
+*
+!.gitignore
+!mflux
+!n8n-v1
+!open-webui
+!rag
+!ai.zsh

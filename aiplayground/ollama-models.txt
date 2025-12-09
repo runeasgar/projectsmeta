@@ -1,0 +1,27 @@
+NAME                                 ID              SIZE      MODIFIED     
+llama-text:latest                    632997a5a262    2.0 GB    4 days ago      
+llama3.2:3b-text-q4_K_M              632997a5a262    2.0 GB    4 days ago      
+gemma:latest                         a2af6cc3eb7f    3.3 GB    10 days ago     
+gemma3:4b-it-q4_K_M                  a2af6cc3eb7f    3.3 GB    10 days ago     
+nomic:latest                         0a109f422b47    274 MB    6 weeks ago     
+nomic-embed-text:latest              0a109f422b47    274 MB    6 weeks ago     
+hermes:latest                        a8851c5041d4    2.0 GB    7 weeks ago     
+mistral:latest                       6577803aa9a0    4.4 GB    7 weeks ago     
+mistral:7b-instruct-v0.3-q4_K_M      6577803aa9a0    4.4 GB    7 weeks ago     
+phi:latest                           d5ea514251bf    2.4 GB    7 weeks ago     
+phi3:3.8b-mini-4k-instruct-q4_K_M    d5ea514251bf    2.4 GB    7 weeks ago     
+cogito:latest                        bd144357d717    2.2 GB    7 weeks ago     
+cogito:3b-v1-preview-llama-q4_K_M    bd144357d717    2.2 GB    7 weeks ago     
+stablecode:latest                    f9cbce651928    1.7 GB    7 weeks ago     
+llama:latest                         a80c4f17acd5    2.0 GB    7 weeks ago     
+llama3.2:3b-instruct-q4_K_M          a80c4f17acd5    2.0 GB    7 weeks ago     
+hermes3:3b-llama3.2-q4_K_M           a8851c5041d4    2.0 GB    7 weeks ago     
+qwen:latest                          359d7dd4bcda    2.5 GB    7 weeks ago     
+qwen3:4b-thinking-2507-q4_K_M        359d7dd4bcda    2.5 GB    7 weeks ago     
+mxbai:latest                         468836162de7    669 MB    7 weeks ago     
+mxbai-embed-large:latest             468836162de7    669 MB    8 weeks ago     
+gptoss:latest                        17052f91a42e    13 GB     8 weeks ago     
+gpt-oss:20b                          17052f91a42e    13 GB     8 weeks ago     
+deepseek:latest                      e0979632db5a    1.1 GB    2 months ago    
+deepseek-r1:1.5b                     e0979632db5a    1.1 GB    2 months ago    
+stable-code:3b-instruct-q4_K_M       f9cbce651928    1.7 GB    2 months ago    

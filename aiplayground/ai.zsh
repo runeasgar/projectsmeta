@@ -32,8 +32,13 @@ devup() {
 
 # Spins down all common development stuff
 devdown() {
+  echo "Stopping Orbstack..."
   orb stop
+  echo "Stopping Ollama..."
   brew services stop ollama
+  echo "Deleting Ollama REPL history..."
+  rm "$HOME/.ollama/history"
+  echo "Stopping glances..."
   _stop_glances
   devstatus
 }

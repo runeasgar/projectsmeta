@@ -1,5 +1,5 @@
 # Quick overview of active development stuff
-devstatus() {
+devstatusai() {
   echo; echo "== Orbstack status =="; command -v orb >/dev/null && orb status
   echo; echo "== Docker containers =="; docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
   echo; echo "== Brew services =="; brew services list
@@ -15,7 +15,7 @@ devstatus() {
 }
 
 # Spins up all common development stuff
-devup() {
+devupai() {
   echo "Starting up dev infrastructure..."
   echo "Starting Ollama..."
   brew services start ollama
@@ -27,11 +27,12 @@ devup() {
   dcud "$HOME/projects/aiplayground/n8n-v1"
   echo "Starting glances..."
   _start_glances
-  devstatus
+  echo "Running devstatusai..."
+  devstatusai
 }
 
 # Spins down all common development stuff
-devdown() {
+devdownai() {
   echo "Stopping Orbstack..."
   orb stop
   echo "Stopping Ollama..."
@@ -40,7 +41,8 @@ devdown() {
   rm "$HOME/.ollama/history"
   echo "Stopping glances..."
   _stop_glances
-  devstatus
+  echo "Running devstatusai..."
+  devstatusai
 }
 
 # All remaining code is Ollama convenience behaviors soruced from ChatGPT 
